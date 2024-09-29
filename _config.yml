@@ -70,7 +70,7 @@ email: lei.apple.141592@gmail.com
 navs:
   -
     href: /
-    label: 首页
+    label: Main
 
   -
     href: /Blogs/
@@ -91,17 +91,17 @@ navs:
     label: Code
 
   -
-    href: /wiki/
-    label: 维基
+    href: /Science/
+    label: Science
 
   -
     href: /links/
-    label: 链接
+    label: Useful links
     mobile-hidden: true
 
   -
     href: /about/
-    label: 关于
+    label: About
 
 # ---------------- #
 #       RSS        #
@@ -114,11 +114,11 @@ subscribe_rss: /feed.xml
 index:
     banner:
         # 首页 banner 区文字颜色
-        color: "#fff"
+        color: "#e74818"
         # 首页导航栏文字颜色
         nav-color: "#8c2242"
         # 首页 banner 区背景颜色
-        background-color: "#ffb586"
+        background-color: "#e9f6c6"
         # 首页 banner 区背景图片
         # background-image: "/assets/images/octicons-bg.png"
         # background-repeat: "no-repeat"

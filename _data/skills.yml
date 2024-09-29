@@ -1,12 +1,15 @@
-- name: Researcher in Computational Materials Science
+- name: Researcher (Ph.D.) in Computational Materials Science
   keywords:
       - Atomistic Modeling
       - Density Functional Theory
       - Machine Learning
       - Molecular dynamics
-
-- name: Ph.D. in Computational Solid Mechanics
-  keywords:
       - Solid Mechanics
       - Discrete Dislocation Dynamics
+
+- name: Coding
+  keywords:
+      - FORTRAN
+      - Python
+      - MATLAB
 
