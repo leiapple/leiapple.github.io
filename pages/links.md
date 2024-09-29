@@ -8,11 +8,11 @@ menu: 链接
 permalink: /links/
 ---
 
-> Below are some links I considered to be useful. 
+> Below are some links I considered to be useful for academic purpose. 
 
 <ul>
 {% for link in site.data.links %}
-  {% if link.src == 'paper' %}
+  {% if link.src == 'science' %}
   <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
   {% endif %}
 {% endfor %}
