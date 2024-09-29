@@ -1,19 +1,12 @@
-- name: Software Engineer Keywords
+- name: Researcher in Computational Materials Science
   keywords:
-      - Java
-      - C++
-      - Python
-      - Design Patterns
+      - Atomistic Modeling
+      - Density Functional Theory
+      - Machine Learning
+      - Molecular dynamics
 
-- name: Mobile Developer Keywords
+- name: Ph.D. in Computational Solid Mechanics
   keywords:
-      - Android
-      - Reverse Engineering
+      - Solid Mechanics
+      - Discrete Dislocation Dynamics
 
-- name: Windows Developer Keywords
-  keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
