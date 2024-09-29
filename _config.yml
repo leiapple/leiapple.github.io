@@ -5,8 +5,8 @@ baseurl:
 url: https://leiapple.github.io
 date_format: "ordinal"
 title: Lei's Blog
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
+subtitle: ""
+description: "Lei Zhang, A "
 keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
 timezone: Asia/Shanghai
 encoding: "utf-8"
