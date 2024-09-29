@@ -4,11 +4,11 @@ title: Publication
 description: A publication list with full access (for persnal useage)
 keywords: Pulications
 comments: true
-menu: 链接
-permalink: /pubs/
+menu: 
+permalink: /publication/
 ---
 
-> Below are some links I considered to be useful. 
+> Publications related to machine learning interactomic potential.
 
 <ul>
 {% for pubs in site.data.pubs %}
