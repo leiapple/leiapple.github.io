@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why do we share code?
+title: Publication list 
 categories: code
 description: Some motivation for sharing the code.
 keywords: open-source, code
