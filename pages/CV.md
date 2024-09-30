@@ -42,11 +42,11 @@ permalink: /CV/
 - Selected as National scholarship student in China, 2019.
 
 # CONFERENCES
-- $$24^{th}$$, $$25^{th}$$, $$26^{th}$$ Engineering Mechanics Symposium, Arnhem, the Netherlands (2021, 2022, 2023)
+- 24th, 25th, 26th Engineering Mechanics Symposium, Arnhem, the Netherlands (2021, 2022, 2023)
 - Machine learning for Material Science. Trieste, Italy (2022)
-- $$11^{th}$$ European Solid Mechanics Conference. Galway, Ireland (2022)
-- $$23^{rd}$$ European Conference of Fracture. Madeira, Portugal (2022)
-- $$7^{th}$$ International Conference on Computational Modeling of Fracture and Failure of Materials and Structures, Prague (2023)
+- 11th European Solid Mechanics Conference. Galway, Ireland (2022)
+- 23rd European Conference of Fracture. Madeira, Portugal (2022)
+- 7th International Conference on Computational Modeling of Fracture and Failure of Materials and Structures, Prague (2023)
 - ECCOMAS Thematic Conference: Computational Modeling of Complex Materials across the Scales, Eindhoven, the Netherlands (2023)
-- $$17^{th}$$ European Congress and Exhibition on Advanced Materials and Processes, Frankfurt (2023)
-- $$11^{st}$$ Multiscale Materials Modelling, Prague (2023)
+- 17th European Congress and Exhibition on Advanced Materials and Processes, Frankfurt (2023)
+- 11st Multiscale Materials Modelling, Prague (2023)

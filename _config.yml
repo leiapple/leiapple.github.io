@@ -5,10 +5,11 @@ baseurl:
 url: https://leiapple.github.io
 date_format: "ordinal"
 title: Lei's Blog
-subtitle: ""
+subtitle: 'Let It be Written'
 description: "Lei Zhang, A "
 keywords: CV, material science, mechanics, modelling
-timezone: Europe/Amsterdam
+language: en
+timezone: 'Europe/Amsterdam'
 encoding: "utf-8"
 # 页面左下角显示的年份
 since: 2024
