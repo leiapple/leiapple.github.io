@@ -59,7 +59,7 @@ highlight_theme: github
 #      Author      #
 # ---------------- #
 author: Zhang Lei
-organization: University of Groningen
+organization: Uni. Groningen
 organization_url: https://www.rug.nl/?lang=en
 github_username: leiapple
 location: Groningen, The Netherlands
@@ -99,6 +99,7 @@ navs:
   -
     href: /archives/
     label: All blogs
+    mobile-hidden: true
 
   -
     href: /about/
