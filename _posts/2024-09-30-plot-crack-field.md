@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Matlab plot crack stress field
-categories: Fracture Mechanics
+categories: Fracture-Mechanics
 description: Linear ealstic fracture mechanics
 keywords: stress, singular crack
 ---
