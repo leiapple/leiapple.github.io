@@ -1,3 +1,31 @@
 - name: Atomistic fracture in bcc iron revealed by active learning of Gaussian approximation potential
   url: https://www.nature.com/articles/s41524-023-01174-6
   src: ml
+
+- name: Efficiency, accuracy, and transferability of machine learning potentials - Application to dislocations and cracks in iron
+  url: https://www.sciencedirect.com/science/article/pii/S135964542400140X
+  src: ml
+
+- name: Atomic cluster expansion interatomic potential for defects and thermodynamics of Cu-W system
+  url: https://arxiv.org/abs/2407.00946
+  src: ml
+
+- name: Atomistic Graph Neural Networks for metals - Application to bcc iron
+  url: https://arxiv.org/abs/2109.14012
+  src: ml
+
+- name: Structure and shear response of <001> tilt grain boundary in titanium nitride
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0272884218333674
+  src: gb
+
+- name: Response of <110> symmetric tilt grain boundary in titanium nitride under shear
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0955799719300761
+  src: gb
+
+- name: Revisiting the structures and energies of β-SiC <001> symmetric tilt grain boundaries
+  url: https://link.springer.com/article/10.1557/s43578-024-01375-9
+  src: gb
+
+- name: matscipy - materials science at the atomic scale with Python
+  url: https://joss.theoj.org/papers/10.21105/joss.05668
+  src: matsci

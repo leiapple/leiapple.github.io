@@ -6,6 +6,12 @@ description: 开源改变世界。
 permalink: /code/
 ---
 
+> Open-source makes the world a better place.
+
+> Share your knowledge and expertise.
+
+> This is a complete list of my Github projects.
+
 {% if site.github.public_repositories != false %}
 {% assign sorted_repos = site.github.public_repositories | sort: 'stargazers_count' | reverse %}
 

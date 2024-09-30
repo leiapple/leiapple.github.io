@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Links
-description: 没有链接的博客是孤独的
+description: A collection of useful links
 keywords: 友情链接
 comments: true
 menu: 链接
 permalink: /links/
 ---
 
-> Below are some links I considered to be useful for academic purpose. 
+> Adademic groups in computational materials.
 
 <ul>
 {% for link in site.data.links %}
@@ -17,3 +17,6 @@ permalink: /links/
   {% endif %}
 {% endfor %}
 </ul>
+
+
+> Courses/Resources in Machine learning interatomic potentials.
