@@ -6,18 +6,18 @@ description: bash programming
 keywords: linux, bash programming
 ---
 
-## for loop
-{% codeblock %}
+### for loop
+```
 #/bin/bash
 for((i=1;i<=200;i=i+5))
 do
 echo $i
 echo loop.$i.dump
 done
-{% endcodeblock %}
+```
 
-## if else
-{% codeblock %}
+### if else
+```
 #/bin/bash
 aa=3.14
 bb=3.14
@@ -29,10 +29,10 @@ if [[ "$c" -eq 1 ]];then
 else 
    echo "false"
 fi;
-{% endcodeblock %}
+```
 
-## if a file exist
-{% codeblock %}
+### if a file exist
+```
 #this if command is used to judge if a file is empty or not.
 
 if [ -s pidfile ]; then
@@ -40,11 +40,11 @@ if [ -s pidfile ]; then
 else
         echo "empty"
 fi
-{% endcodeblock %}
+```
 
-## if string equal
+### if string equals
 
-{% codeblock %}
+```
 flag_0=DISLOCATION
 
 if [ "$flag_0" = "DISLOCATION" ]; then
@@ -52,4 +52,4 @@ echo "equal 000"
 else
 echo "not equal 000"
 fi
-{% endcodeblock %}
+```
