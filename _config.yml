@@ -74,10 +74,6 @@ navs:
     label: Main
 
   -
-    href: /Blogs/
-    label: All blogs
-
-  -
     href: /categories/
     label: Categories
 
@@ -99,6 +95,10 @@ navs:
     href: /links/
     label: Useful links
     mobile-hidden: true
+  
+  -
+    href: /archives/
+    label: All blogs
 
   -
     href: /about/

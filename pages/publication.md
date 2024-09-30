@@ -8,7 +8,7 @@ menu: 链接
 permalink: /publication/
 ---
 
-> Machine learning interatomic potentials.
+### Machine learning interatomic potentials.
 
 <ul>
 {% for pubs in site.data.pubs %}
@@ -19,7 +19,7 @@ permalink: /publication/
 </ul>
 
 
-> Grain boundaries.
+###  Grain boundaries.
 
 <ul>
 {% for pubs in site.data.pubs %}
@@ -29,7 +29,7 @@ permalink: /publication/
 {% endfor %}
 </ul>
 
-> Code.
+### Code.
 
 <ul>
 {% for pubs in site.data.pubs %}
