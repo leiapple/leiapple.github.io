@@ -8,7 +8,7 @@ menu: 链接
 permalink: /links/
 ---
 
-> Adademic groups in computational materials.
+### Adademic groups in computational materials.
 
 <ul>
 {% for link in site.data.links %}
@@ -19,11 +19,21 @@ permalink: /links/
 </ul>
 
 
-> Courses/Resources in Machine learning interatomic potentials.
+### Courses/Resources in Machine learning interatomic potentials.
 
 <ul>
 {% for link in site.data.links %}
-  {% if link.src == 'course' %}
+  {% if link.src == 'mlcourse' %}
+  <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+### Courses/Resources in atomistic modelling
+
+<ul>
+{% for link in site.data.links %}
+  {% if link.src == 'atomistic' %}
   <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
   {% endif %}
 {% endfor %}
