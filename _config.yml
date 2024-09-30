@@ -74,7 +74,11 @@ navs:
 
   -
     href: /Blogs/
-    label: Blogs
+    label: All blogs
+
+  -
+    href: /categories/
+    label: Categories
 
   -
     href: /CV/
@@ -89,10 +93,6 @@ navs:
   -
     href: /code/
     label: Code
-
-  -
-    href: /Science/
-    label: Science
 
   -
     href: /links/
