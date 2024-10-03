@@ -5,3 +5,11 @@
 - name: LAMMPS - Mississippi State Uni.
   url: https://www.cavs.msstate.edu/icme/code/lammps/
   src: atomistic
+
+- name: Atomistic modelling of materials
+  url: https://www.modelingmaterials.org/
+  src: atomistic
+
+- name: Material Science (MATSCI)
+  url: https://matsci.org
+  src: atomistic
