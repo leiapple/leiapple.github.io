@@ -1,3 +1,11 @@
+---
+layout: post
+title: Interstitial energy in LAMMPS
+categories: Atomistic
+description: interstitial energy
+keywords: lammps, atomistic
+---
+
 # Calculating Interstitial Energy of Carbon in Iron Using LAMMPS
 
 **Interstitial energy** refers to the energy required to insert an atom into the interstitial site of a crystal lattice. In this guide, we will calculate the interstitial energy of carbon in a body-centered cubic (BCC) iron lattice using the LAMMPS molecular dynamics software.
@@ -175,13 +183,11 @@ jump            in.eos_C_dia loop_start
 Calculating Interstitial Energy
 Now that we have the system both with and without the carbon atom, we can calculate the interstitial energy.
 The interstitial energy is given by:
-
-$$ E_{\text{interstitial}} = E_{\text{Fe+C}} - E_{\text{Fe}} - E_{\text{C, isolated}} $$
-
+$E_{\rm{interstitial}} = E_{\rm{Fe+C}} - E_{\rm{Fe}} - E_{\rm{C}}$
 Where:
-- $$ E_{\rm Fe+C} $$ is the energy of the iron lattice with the carbon atom.
-- $$ E_{\rm Fe} $$ is the energy of the pure iron lattice.
-- $$ E_{\rm C} $$ is the energy of an isolated carbon atom.
+- $E_{\rm Fe+C}$ is the energy of the iron lattice with the carbon atom.
+- $E_{\rm Fe}$ is the energy of the pure iron lattice.
+- $E_{\rm C}$ is the energy of an isolated carbon atom.
 
 By following this process, you can calculate the interstitial energy of carbon in iron using LAMMPS. This value is useful in understanding how carbon atoms interact with the iron lattice, which is important for studying phenomena like carbon diffusion in steels.
 Feel free to modify the script to use different lattice sizes or to insert multiple interstitial atoms. The same approach can be extended to calculate interstitial energies for other elements in different metals.
