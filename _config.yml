@@ -6,7 +6,7 @@ url: https://leiapple.github.io
 date_format: "ordinal"
 title: Lei's Blog
 subtitle: 'Let It be Written'
-description: "Lei Zhang, A "
+description: "Lei Zhang"
 keywords: CV, material science, mechanics, modelling
 language: en
 timezone: 'Europe/Amsterdam'
@@ -58,7 +58,7 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhang Lei
+author: Lei Zhang
 organization: University of Groningen
 organization_url: https://www.rug.nl/?lang=en
 github_username: leiapple
