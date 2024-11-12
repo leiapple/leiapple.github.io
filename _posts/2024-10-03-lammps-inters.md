@@ -183,11 +183,13 @@ jump            in.eos_C_dia loop_start
 Calculating Interstitial Energy
 Now that we have the system both with and without the carbon atom, we can calculate the interstitial energy.
 The interstitial energy is given by:
-$E_{inter} = E_{Fe+C} - E_{Fe} - E_{C}$
+\[
+    E_{inter} = E_{Fe+C} - E_{Fe} - E_{C}
+\]
 Where:
-- $E_{Fe+C}$ is the energy of the iron lattice with the carbon atom.
-- $E_{Fe}$ is the energy of the pure iron lattice.
-- $E_{C}$ is the energy of an isolated carbon atom.
+- $ E_{Fe+C} $ is the energy of the iron lattice with the carbon atom.
+- $ E_{Fe} $ is the energy of the pure iron lattice.
+- $ E_{C} $ is the energy of an isolated carbon atom.
 
 By following this process, you can calculate the interstitial energy of carbon in iron using LAMMPS. This value is useful in understanding how carbon atoms interact with the iron lattice, which is important for studying phenomena like carbon diffusion in steels.
 Feel free to modify the script to use different lattice sizes or to insert multiple interstitial atoms. The same approach can be extended to calculate interstitial energies for other elements in different metals.
