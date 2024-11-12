@@ -10,7 +10,7 @@ permalink: /CV/
 
 # Working experience
 
-## University of Groningen (2020.07-2024.09)
+## University of Groningen (2024.09-2025.02)
 - PostDoc in Multiscale Simulation of Mechanics (MSM) group led by [Prof. F. Maresca](https://www.rug.nl/staff/f.maresca/research)
 - Project: Hydrogen embrittlement; fracture in iron-carbon alloy
 
