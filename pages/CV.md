@@ -19,7 +19,7 @@ permalink: /CV/
 ## Ph.D: University of Groningen (2020.07-2024.09)
 - PhD in Mechanical Engineering, supervised by [Prof. E. van der Giessen](https://www.rug.nl/staff/e.van.der.giessen/) and [Prof. F. Maresca](https://www.rug.nl/staff/f.maresca/research)
 - Project: Multi-scale modelling of fracture in bcc metals: from atomistic to discrete dislocations.
-- Here is link to the digital version of the [PhD thesis](https://fse.studenttheses.ub.rug.nl/cgi/latest)
+- Here is link to the digital version of the [PhD thesis](https://research.rug.nl/en/publications/multiscale-modeling-of-fracture-in-bcc-metals)
 ## MS: Xian Jiao Tong University (2017.09-2020.07)
 - MS in Solid Mechanics
 - Project-I: Mechanical behavior of TiN GBs and TiN/metal interface
