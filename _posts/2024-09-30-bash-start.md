@@ -11,26 +11,26 @@ keywords: Linux, bash scripting, shell scripts, scripting
 Bash (short for **Bourne-Again SHell**) is a powerful command-line shell and scripting language commonly used on Unix-like systems such as Linux and macOS. Bash scripts enable you to automate repetitive tasks, manage system operations, and create complex workflows in an efficient way.
 
 ## Table of Contents
-1. [What Is Bash?](#1.-what-is-bash)
-2. [Creating and Running a Bash Script](#2.-creating-and-running-a-bash-script)
-3. [Variables and Command Substitution](#3.-variables-and-command-substitution)
-4. [User Input and Command-Line Arguments](#4.-user-input-and-command-line-arguments)
-5. [Control Structures](#5.-control-structures)
+1. [What Is Bash?](#what-is-bash)
+2. [Creating and Running a Bash Script](#creating-and-running-a-bash-script)
+3. [Variables and Command Substitution](#variables-and-command-substitution)
+4. [User Input and Command-Line Arguments](#user-input-and-command-line-arguments)
+5. [Control Structures](#control-structures)
     - [If-Else Statement](#if-else-statement)
     - [For Loops](#for-loops)
     - [While Loops](#while-loops)
     - [Case Statements](#case-statements)
-6. [Functions](#6.-functions)
-7. [Working with Files](#7.-working-with-files)
-8. [Useful Built-in Commands](#8.-useful-built-in-commands)
-9. [Error Handling and Debugging](#9.-error-handling-and-debugging)
-10. [Practical Examples](#10.-practical-examples)
-11. [Best Practices](#11.-best-practices)
-12. [Further Reading and Resources](#12.-further-reading-and-resources)
+6. [Functions](#functions)
+7. [Working with Files](#working-with-files)
+8. [Useful Built-in Commands](#useful-built-in-commands)
+9. [Error Handling and Debugging](#error-handling-and-debugging)
+10. [Practical Examples](#practical-examples)
+11. [Best Practices](#best-practices)
+12. [Further Reading and Resources](#further-reading-and-resources)
 
 ---
 
-## 1. What Is Bash?
+## What Is Bash?
 
 Bash is both a command interpreter and a scripting language:
 - **Command interpreter (shell)**: It lets you type and execute commands interactively in a terminal.
@@ -38,24 +38,24 @@ Bash is both a command interpreter and a scripting language:
 
 ---
 
-## 2. Creating and Running a Bash Script
+## Creating and Running a Bash Script
 
-1. **Create a new file** (e.g., `myscript.sh`) with any text editor (`vi`, `nano`, `gedit`, etc.).
-2. **Add the shebang line** at the top of the file to specify the interpreter:
+1). **Create a new file** (e.g., `myscript.sh`) with any text editor (`vi`, `nano`, `gedit`, etc.).
+2). **Add the shebang line** at the top of the file to specify the interpreter:
    ```bash
    #!/bin/bash
 ```
-3. Write your script by adding commands you would normally run in the terminal:
+3). Write your script by adding commands you would normally run in the terminal:
 ```bash
 #!/bin/bash
 echo "Hello, world!"
 ```
-4. Make the script executable by running:
+4). Make the script executable by running:
 ```bash
 #!/bin/bash
 chmod +x myscript.sh
 ```
-5. Execute the script:
+5). Execute the script:
 ```
 ./myscript.sh
 ```
@@ -63,7 +63,8 @@ or
 ```
 bash myscript.sh
 ```
-## 3. Variables and Command Substitution
+
+## Variables and Command Substitution
 
 In Bash, you can create and use variables to store information, such as strings, numbers, or the output of commands.
 
@@ -89,7 +90,7 @@ Alternatively, older syntax uses backticks:
 current_date=`date`
 ```
 
-## 4. User Input and Command-Line Arguments
+## User Input and Command-Line Arguments
 
 ### Reading User Input with read
 ```
@@ -108,7 +109,7 @@ echo "The second argument is $2"
 ```
 To handle many arguments, you can use $@ or $* to represent all arguments.
 
-## 5. Control Structures
+## Control Structures
 
 Control structures allow you to alter the flow of your Bash scripts.
 
@@ -194,7 +195,7 @@ case $number in
 esac
 ```
 
-## 6. Functions
+## Functions
 
 Functions allow you to group related commands for easier reuse and better structure:
 ```
@@ -210,7 +211,7 @@ greet "Bob"
 * $1, $2, etc., in functions refer to the function’s arguments.
 * The return command can return an integer status code, and echo can be used to produce function output.
 
-## 7. Working with Files
+## Working with Files
 
 ### Check if a File Exists and Is Not Empty
 ```
@@ -238,7 +239,7 @@ do
 done < myfile.txt
 ```
 
-## 8. Useful Built-in Commands
+## Useful Built-in Commands
 * echo: Prints arguments to standard output.
 * read: Reads a line of input from standard input.
 * cd: Changes the current directory.
@@ -247,7 +248,7 @@ done < myfile.txt
 * test or [ ]: Evaluates conditional expressions (used in if statements).
 * exit: Exits the script with an optional status code (0 for success).
 
-## 9. Error Handling and Debugging
+## Error Handling and Debugging
 
 `set`  Options
 * `set -e`: Exit the script when any command fails.
@@ -271,7 +272,7 @@ echo "This won't run if the above command fails."
 * *Verbose* mode: `bash -v myscript.sh`
 * *Debug* mode: `bash -x myscript.sh` (prints each command with its expanded arguments)
 
-## 10. Practical Examples
+## Practical Examples
 
 1. Monitoring Disk Usage
 ```
@@ -298,7 +299,7 @@ cp -r "$source_dir" "${backup_dir}/documents_${timestamp}"
 
 echo "Backup of $source_dir completed at ${timestamp}."
 ```
-## 11. Best Practices
+## Best Practices
 
 1. Use Meaningful Names: Give variables and functions descriptive names (count, backup_files, greet_user).
 2. Comment Your Code: Explain why certain commands are used, especially if they’re not obvious.
@@ -308,8 +309,8 @@ echo "Backup of $source_dir completed at ${timestamp}."
 6. Use set -euo pipefail: Helps catch errors early and makes your script more robust.
 7. Test Incrementally: Run sections of your script as you build it to catch errors before they spread.
 
-## 12. Further Reading and Resources
+## Further Reading and Resources
 
-* Official Bash Manual: https://www.gnu.org/software/bash/manual/
-* Advanced Bash-Scripting Guide: https://tldp.org/LDP/abs/html/
-* Linux Command Tutorials: https://linuxcommand.org/
+* Official Bash Manual: <https://www.gnu.org/software/bash/manual/>
+* Advanced Bash-Scripting Guide: <https://tldp.org/LDP/abs/html/>
+* Linux Command Tutorials: <https://linuxcommand.org/>
