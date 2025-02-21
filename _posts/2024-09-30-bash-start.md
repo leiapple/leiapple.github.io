@@ -11,22 +11,22 @@ keywords: Linux, bash scripting, shell scripts, scripting
 Bash (short for **Bourne-Again SHell**) is a powerful command-line shell and scripting language commonly used on Unix-like systems such as Linux and macOS. Bash scripts enable you to automate repetitive tasks, manage system operations, and create complex workflows in an efficient way.
 
 ## Table of Contents
-1. [What Is Bash?](#what-is-bash)
-2. [Creating and Running a Bash Script](#creating-and-running-a-bash-script)
-3. [Variables and Command Substitution](#variables-and-command-substitution)
-4. [User Input and Command-Line Arguments](#user-input-and-command-line-arguments)
-5. [Control Structures](#control-structures)
+1. [What Is Bash?](#1.-what-is-bash)
+2. [Creating and Running a Bash Script](#2.-creating-and-running-a-bash-script)
+3. [Variables and Command Substitution](#3.-variables-and-command-substitution)
+4. [User Input and Command-Line Arguments](#4.-user-input-and-command-line-arguments)
+5. [Control Structures](#5.-control-structures)
     - [If-Else Statement](#if-else-statement)
     - [For Loops](#for-loops)
     - [While Loops](#while-loops)
     - [Case Statements](#case-statements)
-6. [Functions](#functions)
-7. [Working with Files](#working-with-files)
-8. [Useful Built-in Commands](#useful-built-in-commands)
-9. [Error Handling and Debugging](#error-handling-and-debugging)
-10. [Practical Examples](#practical-examples)
-11. [Best Practices](#best-practices)
-12. [Further Reading and Resources](#further-reading-and-resources)
+6. [Functions](#6.-functions)
+7. [Working with Files](#7.-working-with-files)
+8. [Useful Built-in Commands](#8.-useful-built-in-commands)
+9. [Error Handling and Debugging](#9.-error-handling-and-debugging)
+10. [Practical Examples](#10.-practical-examples)
+11. [Best Practices](#11.-best-practices)
+12. [Further Reading and Resources](#12.-further-reading-and-resources)
 
 ---
 
