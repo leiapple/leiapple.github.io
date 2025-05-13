@@ -10,33 +10,41 @@ permalink: /CV/
 
 # Working experience
 
-## University of Groningen (2024.09-2025.02)
+### Dutch Institute for Fundamental Energy Research (DIFFER) (2025.03-2025.04)
+- PostDoc researcher
+
+### University of Twente (2025.03-2025.04)
+- PostDoc researcher under the supervision of [Dr. Fengxian Liu](https://people.utwente.nl/f.liu-3#)
+- Project: High temperature application of high entropy alloys
+
+### University of Groningen (2024.09-2025.02)
 - PostDoc in Multiscale Simulation of Mechanics (MSM) group led by [Prof. F. Maresca](https://www.rug.nl/staff/f.maresca/research)
 - Project: Hydrogen embrittlement; fracture in iron-carbon alloy
 
 # EDUCATION
 
-## Ph.D: University of Groningen (2020.07-2024.09)
+### Ph.D: University of Groningen (2020.07-2024.09)
 - PhD in Mechanical Engineering, supervised by [Prof. E. van der Giessen](https://www.rug.nl/staff/e.van.der.giessen/) and [Prof. F. Maresca](https://www.rug.nl/staff/f.maresca/research)
 - Project: Multi-scale modelling of fracture in bcc metals: from atomistic to discrete dislocations.
 - Here is link to the digital version of the [PhD thesis](https://research.rug.nl/en/publications/multiscale-modeling-of-fracture-in-bcc-metals)
-## MS: Xian Jiao Tong University (2017.09-2020.07)
+### MS: Xian Jiao Tong University (2017.09-2020.07)
 - MS in Solid Mechanics
 - Project-I: Mechanical behavior of TiN GBs and TiN/metal interface
 - Project-II: Stability of Stacking-fault-tetrahedron-like Structures in Single Copper
-## BS: Sichuan University (2013.09-2017.07)
+### BS: Sichuan University (2013.09-2017.07)
 - BS in Engineering Mechanics, Department of Engineering Mechanics
 - Project: High cycle and ultra-high cycle fatigue failure behavior of nickel alloy
 
 # RESEARCH EXPERIENCE
 
-## During Ph.D.
+### During Ph.D.
 - Density functional theory calculations of defects in iron
 - Development of quantum-accurate interatomic potential for iron
 - Atomic modelling fracture of pure iron and its alloys
 - Discrete dislocation dynamics modelling for fracture in bcc metals
 - Development of analytic model for brittle to ductile transition in iron
-## During M.S.
+
+### During M.S.
 - Molecular dynamics simulation of grain boundaries in titanium nitride
 - Grain boundary mobility and shear deformation at finite temperature
 - Stability of stacking fault tetrahedron
