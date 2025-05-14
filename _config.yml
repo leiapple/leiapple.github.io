@@ -59,10 +59,10 @@ highlight_theme: github
 #      Author      #
 # ---------------- #
 author: Lei Zhang
-organization: University of Groningen
-organization_url: https://www.rug.nl/?lang=en
+organization: DIFFER 
+organization_url: https://www.differ.nl
 github_username: leiapple
-location: Groningen, The Netherlands
+location: Eindhoven, The Netherlands
 email: lei.apple.141592@gmail.com
 
 # ---------------- #
