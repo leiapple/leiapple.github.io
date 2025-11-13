@@ -10,8 +10,9 @@ permalink: /CV/
 
 # Working experience
 
-### Dutch Institute for Fundamental Energy Research (DIFFER) (2025.03-2025.04)
-- PostDoc researcher
+### Dutch Institute for Fundamental Energy Research (DIFFER) (2025.05-Current)
+- PostDoc researcher at [AMD group](https://www.amdlab.nl/ser/) with [Dr. Süleyman Er](https://www.differ.nl/research/autonomous-energy-materials-discovery)
+- Project:
 
 ### University of Twente (2025.03-2025.04)
 - PostDoc researcher under the supervision of [Dr. Fengxian Liu](https://people.utwente.nl/f.liu-3#)
@@ -19,7 +20,7 @@ permalink: /CV/
 
 ### University of Groningen (2024.09-2025.02)
 - PostDoc in Multiscale Simulation of Mechanics (MSM) group led by [Prof. F. Maresca](https://www.rug.nl/staff/f.maresca/research)
-- Project: Hydrogen embrittlement; fracture in iron-carbon alloy
+- Project: Hydrogen embrittlement; fracture in iron-carbon alloy; Developing machine learning interatomic potential for bcc refactories; theory of dislocation emission from crack tip
 
 # EDUCATION
 
@@ -65,3 +66,7 @@ permalink: /CV/
 - ECCOMAS Thematic Conference: Computational Modeling of Complex Materials across the Scales, Eindhoven, the Netherlands (2023)
 - 17th European Congress and Exhibition on Advanced Materials and Processes, Frankfurt (2023)
 - 11st Multiscale Materials Modelling (MMM11), Prague (2023)
+
+# Invited talk
+- Group seminar, invited by Dr. Anirudh Raju Natarajan (EPFL). Presentation: Multiscale Modeling of Fracture in bcc Metals. (Nov 27\textsuperscript{th}, 2024)
+- [CCER](https://www.tue.nl/en/research/institutes/eindhoven-institute-for-renewable-energy-systems/focus-areas/computational-energy-research-cer/) seminar, invited by Dr. Süleyman Er (DIFFER). Presentation: Atomic Cluster Expansion Potentials for Modelling Defects in bcc Transition Metals. (Feb 27\textsuperscript{th}, 2025)
