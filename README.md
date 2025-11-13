@@ -14,7 +14,7 @@ It provides a clean, responsive layout for personal and academic profiles.
 
 - _CV_ introduce my background, research interests, and project highlights 
 - _Code_ provides open-source git repo of my own research 
-- _Publidation_list with links to journals and preprints   
+- _Publidation_ list with links to journals and preprints   
 - _About_ Contact information and social links  
 - _Categories_ provides basic study materials related to computational materials, mechanics, and physics
 

@@ -12,7 +12,7 @@ permalink: /CV/
 
 ### Dutch Institute for Fundamental Energy Research (DIFFER) (2025.05-Current)
 - PostDoc researcher at [AMD group](https://www.amdlab.nl/ser/) with [Dr. Süleyman Er](https://www.differ.nl/research/autonomous-energy-materials-discovery)
-- Project:
+- Project: Molten salt facing alloys; corrosion and irradiation damage in Ni-based alloys 
 
 ### University of Twente (2025.03-2025.04)
 - PostDoc researcher under the supervision of [Dr. Fengxian Liu](https://people.utwente.nl/f.liu-3#)
