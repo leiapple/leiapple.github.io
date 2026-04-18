@@ -8,33 +8,19 @@ menu: 链接
 permalink: /publication/
 ---
 
-### Machine learning interatomic potentials.
+---
+layout: page
+title: Publication
+---
 
+## Machine learning interatomic potentials
+
+{% bibliography -f papers --query @*[keywords=ml] %}
+
+
+## All publications
 <ul>
 {% for pubs in site.data.pubs %}
-  {% if pubs.src == 'ml' %}
-  <li><a href="{{ pubs.url }}" target="_blank">{{ pubs.name}}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-
-
-###  Grain boundaries.
-
-<ul>
-{% for pubs in site.data.pubs %}
-  {% if pubs.src == 'gb' %}
-  <li><a href="{{ pubs.url }}" target="_blank">{{ pubs.name}}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-
-### Code.
-
-<ul>
-{% for pubs in site.data.pubs %}
-  {% if pubs.src == 'matsci' %}
-  <li><a href="{{ pubs.url }}" target="_blank">{{ pubs.name}}</a></li>
-  {% endif %}
+  <li><a href="{{ pubs.url }}" target="_blank">{{ pubs.name }}</a></li>
 {% endfor %}
 </ul>

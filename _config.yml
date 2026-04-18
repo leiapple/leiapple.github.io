@@ -213,3 +213,14 @@ google:
         sidebar-detail: false
         content_header: false
         content_footer: false
+
+plugins:
+  - jekyll/scholar
+
+scholar:
+  source: ./_bibliography
+  style: apa
+  locale: en
+  sort_by: year
+  order: descending
+  group_by: year
