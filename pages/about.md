@@ -10,6 +10,7 @@ permalink: /about/
 
 I am Lei Zhang, a Ph.D. in the field of computational material science. 
 
+<img src="{{ '/assets/images/myself.png' | relative_url }}" alt="My photo" width="300">
 
 ## Contact
 
