@@ -145,7 +145,7 @@ plugins:
     - jekyll-sitemap
     - jekyll-feed
     - jemoji
-    - jekyll/scholar
+    - jekyll-scholar
 #     - jekyll-mentions
 collections:
     wiki:

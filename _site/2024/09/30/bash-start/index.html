@@ -1,0 +1,113 @@
+<!DOCTYPE html><html lang="zh-cmn-Hans" prefix="og: http://ogp.me/ns#" class="han-init"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><title>Comprehensive Introduction to Bash Scripting &mdash; Lei's Blog</title><link rel="stylesheet" href="https://leiapple.github.io/assets/vendor/primer-css/css/primer.css"><link rel="stylesheet" href="https://leiapple.github.io/assets/css/components/collection.css"><link rel="stylesheet" href="https://leiapple.github.io/assets/css/components/repo-card.css"><link rel="stylesheet" href="https://leiapple.github.io/assets/css/sections/repo-list.css"><link rel="stylesheet" href="https://leiapple.github.io/assets/css/components/boxed-group.css"><link rel="stylesheet" href="https://leiapple.github.io/assets/css/globals/common.css"><link rel="stylesheet" href="https://leiapple.github.io/assets/css/globals/responsive.css"><link rel="stylesheet" href="https://leiapple.github.io/assets/css/posts/index.css"><link rel="stylesheet" href="https://leiapple.github.io/assets/vendor/octicons/octicons/octicons.css"><link rel="stylesheet" href="https://mazhuang.org/rouge-themes/dist/github.css"><link rel="canonical" href="https://leiapple.github.io/2024/09/30/bash-start/"><link rel="alternate" type="application/atom+xml" title="Lei's Blog" href="https://leiapple.github.io/feed.xml"><link rel="shortcut icon" href="https://leiapple.github.io/favicon.ico"><meta property="og:title" content="Comprehensive Introduction to Bash Scripting"><meta name="keywords" content="Linux, bash scripting, shell scripts, scripting"><meta name="og:keywords" content="Linux, bash scripting, shell scripts, scripting"><meta name="description" content="Comprehensive Introduction to Bash Scripting"><meta name="og:description" content="Comprehensive Introduction to Bash Scripting"><meta property="og:url" content="https://leiapple.github.io/2024/09/30/bash-start/"><meta property="og:site_name" content="Lei's Blog"><meta property="og:type" content="article"><meta property="og:locale" content="zh_CN" /><meta property="article:published_time" content="2024-09-30"> <script src="https://leiapple.github.io/assets/vendor/jquery/dist/jquery.min.js"></script> <script src="https://leiapple.github.io/assets/js/main.js"></script></head><body class="" data-mz=""><header class="site-header"><div class="container"><h1><a href="https://leiapple.github.io/" title="Lei's Blog"><span class="octicon octicon-mark-github"></span> Lei's Blog</a></h1><button class="collapsed mobile-visible" type="button" onclick="toggleMenu();"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button><nav class="site-header-nav" role="navigation"> <a href="https://leiapple.github.io/" class="site-header-nav-item" target="" title="Main">Main</a> <a href="https://leiapple.github.io/categories/" class="site-header-nav-item" target="" title="Categories">Categories</a> <a href="https://leiapple.github.io/CV/" class="mobile-hidden site-header-nav-item" target="" title="CV">CV</a> <a href="https://leiapple.github.io/publication/" class="mobile-hidden site-header-nav-item" target="" title="Publication">Publication</a> <a href="https://leiapple.github.io/code/" class="site-header-nav-item" target="" title="Code">Code</a> <a href="https://leiapple.github.io/links/" class="mobile-hidden site-header-nav-item" target="" title="Useful links">Useful links</a> <a href="https://leiapple.github.io/archives/" class="site-header-nav-item" target="" title="Archives">Archives</a> <a href="https://leiapple.github.io/about/" class="site-header-nav-item" target="" title="About">About</a> <a class="mobile-hidden" href="https://leiapple.github.io/feed.xml"><span class="octicon octicon-rss" style="color:orange;"></span></a></nav></div></header><section class="collection-head small geopattern" data-pattern-id="Comprehensive I"><div class="container"><div class="columns"><div class="column three-fourths"><div class="collection-title"><h1 class="collection-header">Comprehensive Introduction to Bash Scripting</h1><div class="collection-info"> <span class="meta-info"> <span class="octicon octicon-calendar"></span> 2024/09/30 </span> <span class="meta-info"> <span class="octicon octicon-file-directory"></span> <a href="https://leiapple.github.io/categories/#Linux," title="Linux,">Linux,</a> </span> <span class="meta-info"> <span class="octicon octicon-file-directory"></span> <a href="https://leiapple.github.io/categories/#Bash" title="Bash">Bash</a> </span> <span class="meta-info"> <span class="octicon octicon-clock"></span> Total 5527 words，approximately 16 mins. </span></div></div></div><div class="column one-fourth mobile-hidden"><div class="collection-title"></div></div></div></div></section><section class="container content"><div class="columns"><div class="column three-fourths" ><article class="article-content markdown-body"><h1 id="comprehensive-introduction-to-bash-scripting">Comprehensive Introduction to Bash Scripting</h1><p>Bash (short for <strong>Bourne-Again SHell</strong>) is a powerful command-line shell and scripting language commonly used on Unix-like systems such as Linux and macOS. Bash scripts enable you to automate repetitive tasks, manage system operations, and create complex workflows in an efficient way.</p><h2 id="table-of-contents">Table of Contents</h2><ol><li><a href="#what-is-bash">What Is Bash?</a></li><li><a href="#creating-and-running-a-bash-script">Creating and Running a Bash Script</a></li><li><a href="#variables-and-command-substitution">Variables and Command Substitution</a></li><li><a href="#user-input-and-command-line-arguments">User Input and Command-Line Arguments</a></li><li><a href="#control-structures">Control Structures</a><ul><li><a href="#if-else-statement">If-Else Statement</a></li><li><a href="#for-loops">For Loops</a></li><li><a href="#while-loops">While Loops</a></li><li><a href="#case-statements">Case Statements</a></li></ul></li><li><a href="#functions">Functions</a></li><li><a href="#working-with-files">Working with Files</a></li><li><a href="#useful-built-in-commands">Useful Built-in Commands</a></li><li><a href="#error-handling-and-debugging">Error Handling and Debugging</a></li><li><a href="#practical-examples">Practical Examples</a></li><li><a href="#best-practices">Best Practices</a></li><li><a href="#further-reading-and-resources">Further Reading and Resources</a></li></ol><hr /><h2 id="what-is-bash">What Is Bash?</h2><p>Bash is both a command interpreter and a scripting language:</p><ul><li><strong>Command interpreter (shell)</strong>: It lets you type and execute commands interactively in a terminal.</li><li><strong>Scripting language</strong>: You can create files (scripts) containing a sequence of commands, which are then run automatically, saving time and reducing errors.</li></ul><hr /><h2 id="creating-and-running-a-bash-script">Creating and Running a Bash Script</h2><p>1). <strong>Create a new file</strong> (e.g., <code class="language-plaintext highlighter-rouge">myscript.sh</code>) with any text editor (<code class="language-plaintext highlighter-rouge">vi</code>, <code class="language-plaintext highlighter-rouge">nano</code>, <code class="language-plaintext highlighter-rouge">gedit</code>, etc.). 2). <strong>Add the shebang line</strong> at the top of the file to specify the interpreter:</p><div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   <span class="c">#!/bin/bash</span>
+</code></pre></div></div><p>3). Write your script by adding commands you would normally run in the terminal:</p><div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+<span class="nb">echo</span> <span class="s2">"Hello, world!"</span>
+</code></pre></div></div><p>4). Make the script executable by running:</p><div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+<span class="nb">chmod</span> +x myscript.sh
+</code></pre></div></div><p>5). Execute the script:</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./myscript.sh
+</code></pre></div></div><p>or</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash myscript.sh
+</code></pre></div></div><h2 id="variables-and-command-substitution">Variables and Command Substitution</h2><p>In Bash, you can create and use variables to store information, such as strings, numbers, or the output of commands.</p><h3 id="creating-variables">Creating Variables</h3><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+name="Alice"
+number=42
+
+echo "My name is $name and my favorite number is $number."
+</code></pre></div></div><h3 id="command-substitution">Command Substitution</h3><p>Command substitution lets you assign the output of a command to a variable:</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+current_date=$(date)
+echo "Today's date is $current_date."
+</code></pre></div></div><p>Alternatively, older syntax uses backticks:</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>current_date=`date`
+</code></pre></div></div><h2 id="user-input-and-command-line-arguments">User Input and Command-Line Arguments</h2><h3 id="reading-user-input-with-read">Reading User Input with read</h3><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+echo "Please enter your name:"
+read user_name
+echo "Hello, $user_name!"
+</code></pre></div></div><h3 id="command-line-arguments">Command-Line Arguments</h3><p>$1, $2, $3, etc. represent the arguments passed to the script:</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+echo "The first argument is $1"
+echo "The second argument is $2"
+</code></pre></div></div><p>To handle many arguments, you can use $@ or $* to represent all arguments.</p><h2 id="control-structures">Control Structures</h2><p>Control structures allow you to alter the flow of your Bash scripts.</p><h3 id="if-else-statement">If-Else Statement</h3><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+aa=3.14
+bb=3.14
+c=$(echo "$aa == $bb" | bc)  # compares numerical values
+
+if [[ "$c" -eq 1 ]]; then
+  echo "true"
+else
+  echo "false"
+fi
+</code></pre></div></div><p>String Comparison Example</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+flag_0="DISLOCATION"
+
+if [ "$flag_0" = "DISLOCATION" ]; then
+  echo "equal 000"
+else
+  echo "not equal 000"
+fi
+</code></pre></div></div><p>Common Operators:</p><ul><li>-eq, -ne, -gt, -ge, -lt, -le: numeric comparisons</li><li>-z, -n: check if a string is empty or not</li><li>=, !=: string equality or inequality</li></ul><h3 id="for-loops">For Loops</h3><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+for ((i=1; i&lt;=200; i=i+5))
+do
+  echo $i
+  echo loop.$i.dump
+done
+</code></pre></div></div><p>Another form (iterating over a list):</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+for fruit in apple banana cherry
+do
+  echo "I like $fruit"
+done
+</code></pre></div></div><h3 id="while-loops">While Loops</h3><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+count=1
+while [ $count -le 5 ]
+do
+  echo "Count is: $count"
+  ((count++))
+done
+</code></pre></div></div><h3 id="case-statements">Case Statements</h3><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+echo "Enter a number between 1 and 3:"
+read number
+
+case $number in
+  1)
+    echo "You chose one."
+    ;;
+  2)
+    echo "You chose two."
+    ;;
+  3)
+    echo "You chose three."
+    ;;
+  *)
+    echo "Invalid choice!"
+    ;;
+esac
+</code></pre></div></div><h2 id="functions">Functions</h2><p>Functions allow you to group related commands for easier reuse and better structure:</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+
+function greet {
+  echo "Hello, $1!"
+}
+
+greet "Alice"
+greet "Bob"
+</code></pre></div></div><ul><li>$1, $2, etc., in functions refer to the function’s arguments.</li><li>The return command can return an integer status code, and echo can be used to produce function output.</li></ul><h2 id="working-with-files">Working with Files</h2><h3 id="check-if-a-file-exists-and-is-not-empty">Check if a File Exists and Is Not Empty</h3><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+if [ -s pidfile ]; then
+  echo "hi"
+else
+  echo "empty"
+fi
+</code></pre></div></div><h3 id="creating-appending-and-reading-files">Creating, Appending, and Reading Files</h3><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+# Creating or overwriting a file
+echo "Hello" &gt; myfile.txt
+
+# Appending to a file
+echo "World" &gt;&gt; myfile.txt
+
+# Reading a file line by line
+while IFS= read -r line
+do
+  echo "Line: $line"
+done &lt; myfile.txt
+</code></pre></div></div><h2 id="useful-built-in-commands">Useful Built-in Commands</h2><ul><li>echo: Prints arguments to standard output.</li><li>read: Reads a line of input from standard input.</li><li>cd: Changes the current directory.</li><li>pwd: Prints the current working directory.</li><li>ls, cp, mv, rm: Basic file and directory management commands.</li><li>test or [ ]: Evaluates conditional expressions (used in if statements).</li><li>exit: Exits the script with an optional status code (0 for success).</li></ul><h2 id="error-handling-and-debugging">Error Handling and Debugging</h2><p><code class="language-plaintext highlighter-rouge">set</code> Options</p><ul><li><code class="language-plaintext highlighter-rouge">set -e</code>: Exit the script when any command fails.</li><li><code class="language-plaintext highlighter-rouge">set -u</code>: Treat unset variables as errors.</li><li><code class="language-plaintext highlighter-rouge">set -o pipefail</code>: Return exit code of the last command that failed in a pipeline. Include them near the top of your script:<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+set -euo pipefail
+</code></pre></div></div></li></ul><h3 id="using-trap">Using trap</h3><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+trap 'echo "An error occurred. Exiting..."' ERR
+
+some_command_that_might_fail
+echo "This won't run if the above command fails."
+</code></pre></div></div><h3 id="debug-mode">Debug Mode</h3><ul><li><em>Verbose</em> mode: <code class="language-plaintext highlighter-rouge">bash -v myscript.sh</code></li><li><em>Debug</em> mode: <code class="language-plaintext highlighter-rouge">bash -x myscript.sh</code> (prints each command with its expanded arguments)</li></ul><h2 id="practical-examples">Practical Examples</h2><ol><li>Monitoring Disk Usage ``` #!/bin/bash threshold=80</li></ol><p>current_usage=$(df -h / | tail -1 | awk ‘{print $5}’ | sed ‘s/%//’) if [ $current_usage -gt $threshold ]; then echo “Warning: Disk usage is above $threshold%!” else echo “Disk usage is under control at $current_usage%.” fi</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+2. Backup Script
+</code></pre></div></div><p>#!/bin/bash source_dir=”/home/user/documents” backup_dir=”/home/user/backup” timestamp=$(date +%Y%m%d%H%M)</p><p>mkdir -p “$backup_dir” cp -r “$source_dir” “${backup_dir}/documents_${timestamp}”</p><p>echo “Backup of $source_dir completed at ${timestamp}.” ```</p><h2 id="best-practices">Best Practices</h2><ol><li>Use Meaningful Names: Give variables and functions descriptive names (count, backup_files, greet_user).</li><li>Comment Your Code: Explain why certain commands are used, especially if they’re not obvious.</li><li>Validate Inputs: Check that arguments and user inputs are valid before using them.</li><li>Quote Variables: Put variables in quotes (“$var”) to prevent globbing and word splitting issues.</li><li>Prefer $() for Command Substitution: It’s more readable than backticks.</li><li>Use set -euo pipefail: Helps catch errors early and makes your script more robust.</li><li>Test Incrementally: Run sections of your script as you build it to catch errors before they spread.</li></ol><h2 id="further-reading-and-resources">Further Reading and Resources</h2><ul><li>Official Bash Manual: <a href="https://www.gnu.org/software/bash/manual/">https://www.gnu.org/software/bash/manual/</a></li><li>Advanced Bash-Scripting Guide: <a href="https://tldp.org/LDP/abs/html/">https://tldp.org/LDP/abs/html/</a></li><li>Linux Command Tutorials: <a href="https://linuxcommand.org/">https://linuxcommand.org/</a></li></ul><div style="margin-top:2em;padding:0 1.5em;border:1px solid #d3d3d3;background-color:#deebf7"><h3>Document information:</h3><ul><li>Author：<a href="https://leiapple.github.io" target="_blank">Lei Zhang</a></li><li>Link：<a href="https://leiapple.github.io/2024/09/30/bash-start/" target="_blank">https://leiapple.github.io/2024/09/30/bash-start/</a></li><li>Copyright：Creative Commons licenses（<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" target="_blank"> cc3.0 </a>）</li></ul></div></article><div class="share"></div><div class="comment"><div id="container"></div><link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/imsun.github.io/gitment/style/default.css"> <script src="https://fastly.jsdelivr.net/gh/imsun.github.io/gitment/dist/gitment.browser.js"></script> <script> var gitment = new Gitment({ id: '/2024/09/30/bash-start/', owner: 'leiapple/', repo: 'leiapple/comments', oauth: { client_id: 'Ov23liudn8rbGcJqu2KD', client_secret: '44a458a537c8ebc700e62a7787a041b2dccbc737', }, }); gitment.render('container'); </script></div></div><div class="column one-fourth"><h3>Search</h3><div id="site_search"> <input style="width:96%" type="text" id="search_box" placeholder="Search"></div><ul id="search_results" style="font-size:14px;list-style-type:none;padding-top:10px;padding-left:10px;"></ul><script src="https://leiapple.github.io/assets/js/simple-jekyll-search.min.js"></script> <script type="text/javascript"> SimpleJekyllSearch({ searchInput: document.getElementById('search_box'), resultsContainer: document.getElementById('search_results'), json: 'https://leiapple.github.io/assets/search_data.json?v=1776520318', searchResultTemplate: '<li><a href="{url}" title="{title}">{title}</a></li>', noResultsText: 'No results found', limit: 10, fuzzy: false, exclude: ['Welcome'] }) </script><h3 class="post-directory-title mobile-hidden">Table of Contents</h3><div id="post-directory-module" class="mobile-hidden"><section class="post-directory"><dl></dl></section></div><script src="https://leiapple.github.io/assets/js/jquery.toc.js"></script></div></div></section><footer class="container"><div class="site-footer" role="contentinfo"><div class="copyright left mobile-block"> © 2024 <span title="Lei Zhang">Lei Zhang</span> <a href="javascript:window.scrollTo(0,0)" class="right mobile-visible">TOP</a></div><ul class="site-footer-links right mobile-hidden"><li> <a href="javascript:window.scrollTo(0,0)" >TOP</a></li></ul><a href="https://github.com/leiapple/leiapple.github.io" target="_blank" aria-label="view source code"> <span class="mega-octicon octicon-mark-github" title="GitHub"></span> </a><ul class="site-footer-links mobile-hidden"><li> <a href="https://leiapple.github.io/" title="Main" target="">Main</a></li><li> <a href="https://leiapple.github.io/categories/" title="Categories" target="">Categories</a></li><li> <a href="https://leiapple.github.io/CV/" title="CV" target="">CV</a></li><li> <a href="https://leiapple.github.io/publication/" title="Publication" target="">Publication</a></li><li> <a href="https://leiapple.github.io/code/" title="Code" target="">Code</a></li><li> <a href="https://leiapple.github.io/links/" title="Useful links" target="">Useful links</a></li><li> <a href="https://leiapple.github.io/archives/" title="Archives" target="">Archives</a></li><li> <a href="https://leiapple.github.io/about/" title="About" target="">About</a></li><li><a href="https://leiapple.github.io/feed.xml"><span class="octicon octicon-rss" style="color:orange;"></span></a></li></ul></div></footer><div class="tools-wrapper"> <a class="gotop" href="#" title="回到顶部"><span class="octicon octicon-arrow-up"></span></a></div><script src="https://leiapple.github.io/assets/js/geopattern.js"></script> <script> jQuery(document).ready(function($) { $('.geopattern').each(function(){ $(this).geopattern($(this).data('pattern-id')); }); /* hljs.initHighlightingOnLoad(); */ }); </script></body></html>
