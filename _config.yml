@@ -219,8 +219,8 @@ scholar:
   source: ./_bibliography
   style: apa
   locale: en
-  sort_by: year
-  order: ascending
+  group_by: year
+  group_order: descending
   group_by: year
   
   
