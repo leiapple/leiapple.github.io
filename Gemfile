@@ -7,12 +7,11 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-feed"
   gem "jemoji"
-  gem "jekyll-scholar"        # Fixed: hyphen, not slash
-  gem "jekyll-github-metadata" # Add this to fix your local error
+  gem "jekyll-scholar"      # ← Must match _config.yml
+  gem "jekyll-github-metadata"
 end
 
-# Additional gems for local development
 gem "faraday-retry"
 gem "csv"
 gem "base64"
-gem "webrick", "~> 1.7"
+gem "webrick"
