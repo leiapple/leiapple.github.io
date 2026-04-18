@@ -145,6 +145,7 @@ plugins:
     - jekyll-sitemap
     - jekyll-feed
     - jemoji
+    - jekyll/scholar
 #     - jekyll-mentions
 collections:
     wiki:
@@ -214,9 +215,6 @@ google:
         content_header: false
         content_footer: false
 
-plugins:
-  - jekyll/scholar
-
 scholar:
   source: ./_bibliography
   style: apa
@@ -224,3 +222,4 @@ scholar:
   sort_by: year
   order: descending
   group_by: year
+  
