@@ -15,12 +15,12 @@ title: Publication
 
 ## Machine learning interatomic potentials
 
-{% bibliography -f papers --query @*[keywords=ml] %}
+{% bibliography -f papers --query @*[keywords=potential] %}
 
+## Dislocation
+
+{% bibliography --file papers --query @*[keywords=dislocation] %}
 
 ## All publications
-<ul>
-{% for pubs in site.data.pubs %}
-  <li><a href="{{ pubs.url }}" target="_blank">{{ pubs.name }}</a></li>
-{% endfor %}
-</ul>
+
+{% bibliography --file papers %}
